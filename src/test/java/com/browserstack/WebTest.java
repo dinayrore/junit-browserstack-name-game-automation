@@ -10,7 +10,6 @@ public class WebTest extends BrowserStackJUnitTest {
 
   @Test
   public void validateTitle() throws Exception {
-    driver.navigate().to("http://www.ericrochester.com/name-game/");
     assertEquals("name game", driver.getTitle());
   }
 }

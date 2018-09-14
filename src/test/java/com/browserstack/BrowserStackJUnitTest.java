@@ -1,10 +1,7 @@
 package com.browserstack;
 import com.browserstack.local.Local;
 
-import java.io.File;
 import java.io.FileReader;
-import java.io.IOException;
-import java.io.InputStream;
 import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
@@ -92,6 +89,8 @@ public class BrowserStackJUnitTest {
         }
 
         driver = new RemoteWebDriver(new URL("http://"+username+":"+accessKey+"@"+config.get("server")+"/wd/hub"), capabilities);
+        driver.navigate().to("http://www.ericrochester.com/name-game/");
+
     }
 
     @After
