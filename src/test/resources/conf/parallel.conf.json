@@ -17,5 +17,14 @@
     "browser": "safari"
   },{
     "browser": "internet explorer"
+  },{
+    "device": "Google Pixel 2",
+    "os_version": "8.0"
+  },{
+    "device": "iPhone X",
+    "os_version": "11.0",
+  },{
+    "device": "iPad Mini 4",
+    "os_version": "11.4"
   }]
 }
